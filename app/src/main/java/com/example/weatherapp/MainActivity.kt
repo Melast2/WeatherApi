@@ -13,7 +13,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 class MainActivity : AppCompatActivity() {
 
     private val BASE_URL = "https://api.openweathermap.org/"
-    private val API_KEY = "91373ce51eabef291e7f742b7023f5fd"
+    private val API_KEY = "api_key"
 
     private lateinit var textViewTemperature: TextView
     private lateinit var textViewHumidity: TextView
